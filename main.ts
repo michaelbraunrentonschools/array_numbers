@@ -18,5 +18,6 @@ for (let i = 0; i < 4; i++) {
     game.splash(i + "multiplied times two is: " + arrayLoop[i])
 }
 
+// Why is the number doubling each time arrayLoop is being displaeyd on game splash?
 
 
