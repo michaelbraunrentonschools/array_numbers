@@ -9,14 +9,14 @@ for (let index = 0; index < 4; index++) {
     // return the array loop that multiples that number times 2
 
     arrayLoop[index] = index *2
+}
+
+for (let i = 0; i < 4; i++) {
 
     // display the number and the array number 
 
-    game.splash("This multiplies the index times two: " + arrayLoop[...])
-
+    game.splash(i + "multiplied times two is: " + arrayLoop[i])
 }
-
-
 
 
 
